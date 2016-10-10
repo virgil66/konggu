@@ -1,0 +1,867 @@
+.home,
+.banner-01,
+.block-img,
+.news-img,
+.picture-list-img,
+.scroll-out,
+.scroll-in{
+	width: 100%;
+}
+.holding-nav,
+.holding-nav .navbar.navbar-default{
+	background-color: #19191B;
+}
+.top-logo{
+	height: 45px;
+}
+.holding-nav .navbar.navbar-default{
+	min-height: 80px;
+	border-radius: 0;
+	border: none;
+}
+.holding-nav .navbar-brand{
+	padding-top:17.5px;
+	box-sizing: border-box; 
+}
+.holding-nav .collapse.navbar-collapse .nav.navbar-nav{
+	float: right;
+}
+.holding-nav .collapse.navbar-collapse{
+	min-height: 80px;
+}
+.nav.navbar-nav > li > a{
+	color: #fff;
+}
+.home{
+	margin-top: -21px;
+	position: relative;
+}
+.home .container-fluid{
+	padding: 0;
+}
+.home .container-fluid .row{
+	margin: 0;
+}
+.home .container-fluid .row .col-md-12{
+	padding: 0;
+}
+.banner-01{
+	max-width: 100%;
+}
+.notice{
+	position: absolute;
+	left: 50%;
+	background: transparent url(../images/banner_news_blue.png) repeat left top;
+	padding: 15px;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 12px;
+}
+.notice-title{
+	font-size: 13px;
+	margin-bottom: 0;
+}
+.notice-time{
+	border-bottom: 1px solid #2F669A;
+	padding-bottom: 12px;
+	box-sizing: border-box;
+}
+.notice-content{
+	margin-top: 18px;
+}
+.notice-symbol{
+	width: 26px;
+}
+.symbol-left{
+	float: left;
+	margin-top: -10px;
+}
+.symbol-right{
+	float: right;
+    margin-top: -15px;
+}
+.notice-con{
+	margin: 0 23px 0 30px;
+}
+.about{
+	background: transparent url(../images/icon_keyboard.png) no-repeat left top;
+	background-size: 33%;
+}
+.about .container{
+	background: transparent url(../images/icon_mouse.png) no-repeat right top;
+	background-size: 18%;
+}
+.about-title,
+.news-title,
+.culture-title,
+.service-title{
+	text-align: center;
+	font-size: 20px;
+}
+.about-title:before,
+.news-title:before,
+.culture-title:before,
+.service-title:before{
+	content: "~~~~~";
+	margin-right: 20px;
+}
+.about-title:after,
+.news-title:after,
+.culture-title:after,
+.service-title:after{
+	content: "~~~~~";
+	margin-left: 20px;
+}
+.about-group,
+.news-group,
+.culture-group,
+.service-group{
+	text-align: center;
+	padding: 10px 0;
+	box-sizing: border-box;
+}
+.about-group .about-list,
+.news-group .news-list,
+.culture-group .culture-list,
+.service-group .service-list{
+	display: inline-block;
+	padding: 5px 15px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.black-active{
+	border: 1px solid #000;
+}
+.about-content{
+	margin-top: 32px;
+}
+.content-list,
+.news-switch .switch-content{
+	display: none;
+}
+.content-list-img-left{
+	float: left;
+	margin-top: -15px;
+}
+.content-list-img-right{
+	float: right;
+	margin-top: -40px;
+}
+.content-list-word{
+	margin-left: 46px;
+	line-height: 26px;
+	margin-right: 36px;
+}
+.padding-border{
+	border: 1px solid #000;
+}
+.block-content .padding-lt{
+	padding-left: 0;
+	margin-bottom: 15px;
+}
+.block-word{
+    margin: auto;
+    text-align: center;
+}
+.block-content:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.news,
+.service{
+	background-color: #3E454C;
+}
+.news .container-content{
+	position: relative;
+}
+.news-title,
+.service-title,
+.service-detail,
+.group-ul .ul-li{
+	color: #fff;
+}
+.white-active{
+	border: 1px solid #fff;
+}
+.news-group .news-list,
+.service-group .service-list{
+	color: #fff;
+}
+.news-switch .switch-list{
+	display: inline-block;
+}
+.news-switch .switch-list:first-child{
+	width: 36%;
+}
+.switch-list + .switch-list{
+	width: 18%;
+}
+.switch-list-body,
+.service-content .content-list:first-child{
+	position: relative;
+}
+.news-info{
+	position: absolute;
+	right: 0;
+	color: #fff;
+}
+.switch-list:first-child .news-info{
+	width: 50%;
+	right: 22px;
+    top: 12px;
+}
+.info-title{
+	display: block;
+	width: 90px;
+    padding: 8px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ACA7A6;
+}
+.info-content{
+	font-size: 12px;
+	padding: 8px 0;
+    box-sizing: border-box;
+}
+.switch-list + .switch-list .news-info{
+	width: 100%;
+	padding: 0 12px;
+	box-sizing: border-box;
+}
+.bottom-0{
+	bottom: 0;
+}
+.top-0{
+	top: 0;
+}
+.bg-blue{
+	background: transparent url(../images/news_bg_blue.png) repeat left top;
+}
+.bg-coffee{
+	background: transparent url(../images/news_bg_yellow.png) repeat left top;
+}
+.bg-green{
+	background: transparent url(../images/news_bg_green.png) repeat left top;
+}
+.back,
+.go{
+	width: 60px;
+	height: 100px;
+	top: 50%;
+	margin-top: -10px;
+}
+.icon-back,
+.icon-go{
+	margin-top: 21.5px;
+	cursor: pointer;
+}
+.back{
+	position: absolute;
+	left: 0;
+}
+.go{
+	position: absolute;
+	right: 0;
+}
+.culture{
+	position: relative;
+	z-index: 1;
+}
+.icon-pen,
+.icon-up,
+.icon-penholder{
+	position: absolute;
+}
+.icon-penholder{
+	bottom: -153px;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+}
+.culture-content .content-list:last-child{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+}
+.picture-group .picture-list{
+	display: inline-block;
+}
+.picture-list + .picture-list{
+	margin-left: -3px;
+}
+.picture-group .picture-list:first-child,
+.picture-group .picture-list:last-child{
+	width: 2.9%;
+}
+.picture-group .picture-list:not(first-child),
+.picture-group .picture-list:not(last-child){
+	width: 11.63%;
+}
+.bg-left,
+.bg-right{
+	position: absolute;
+	top: 0;
+	width: 20%;
+}
+.bg-left{
+	left: 0;
+}
+.bg-right{
+	right: 0;
+}
+.bg-transparent{
+	background-color: #000;
+	opacity: .5;
+}
+.bg-back{
+	position: absolute;
+	right: -25px;
+    top: 50%;
+    margin-top: -28.5px;
+}
+.bg-go{
+	position: absolute;
+	top: 50%;
+	left: -25px;
+	margin-top: -28.5px;
+}
+.bg-right .bg-transparent:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.service{
+	position: relative;
+	z-index: 2;
+}
+.service .row{
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+.icon-map{
+	width: 75%;
+}
+.address-tel-email{
+	width: 250px;
+}
+.service-detail{
+	background: transparent url(../images/gray-bg.png) repeat left top;
+	font-size: 13px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.address-tel-email{
+	position: absolute;
+	bottom: 50%;
+	right: 0;
+}
+.service-detail-img{
+	width: 24px;
+	margin-top: -4px;
+	margin-right: 8px;
+}
+.detail-middle{
+	width: 210px;
+}
+.detail-short{
+	width: 190px;
+}
+.group-ul{
+	border-bottom: 1px solid #ACA7A6;
+	padding: 8px 0;
+	box-sizing: border-box;
+}
+.text-left{
+	text-align: left;
+}
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
+.group-ul .ul-li{
+	display: inline-block;
+	width: 32%;
+}
+.padding-lt{
+	padding-left: 72px;
+}
+/*滚动条开始*/
+/*内容外部框*/
+.scroll-out{
+	height: 270px;
+	padding-right: 72px;
+	overflow: auto;
+	color: #fff;
+}
+/*内容内部样式*/
+.scroll-in{
+	height: auto;
+}
+/*滚动条整体部分*/
+.scroll-out::-webkit-scrollbar{
+	width: 4px;
+}
+/*滚动条两端按钮*/
+.scroll-out::-webkit-scrollbar-button{
+	/*background: transparent url(../images/screenbar_icon_up.png) no-repeat center top;*/
+}
+/*滚动条外层轨道*/
+.scroll-out::-webkit-scrollbar-track{
+	background: transparent url(../images/screenbar_xtx_line.png) repeat-y center top;
+}
+/*滚动条内层轨道（出去中间滚动的部分）*/
+.scroll-out::-webkit-scrollbar-track-piece{
+	
+}
+/*滚动条中可以滚动的部分*/
+.scroll-out::-webkit-scrollbar-thumb{
+	/*background: transparent url(../images/screenbar_nav.png) no-repeat center top;*/
+	background: #fff;
+	border-radius: 3px;
+}
+/*滚动条的边角*/
+.scroll-out::-webkit-scrollbar-corner{
+
+}
+/*滚动条右下角托块的样式*/
+.scroll-out::-webkit-resizer{
+
+}
+/*滚动条结束*/
+.content-list-bottom{
+	text-align: center;
+	padding-top: 50px;
+    box-sizing: border-box;
+    color: #fcfcfc;
+}
+.scroll-title{
+	font-size: 18px;
+}
+.declare{
+	line-height: 32px;
+}
+.footer{
+	background-color: #181B1F;
+	color: #515253;
+	padding: 10px 0;
+	box-sizing: border-box;
+}
+.footer .container .row{
+	line-height: 30px;
+}
+.footer-ul{
+	text-align: right;
+	margin-bottom: 0;
+}
+.footer-ul .footer-li{
+	display: inline-block;
+}
+.footer-li + .footer-li a{
+	border-left: 1px solid #515253;
+}
+.footer-ul .footer-li a{
+	color: #515253;
+	padding: 0 12px;
+	box-sizing: border-box;
+}
+@media (max-width: 767px){
+	.holding-nav .container-fluid{
+		padding-left: 15px;
+		padding-right: 15px;
+		box-sizing: border-box;
+	}
+	.container-fluid .navbar-header{
+		min-height: 80px;
+	}
+	.container-fluid .navbar-header .navbar-toggle{
+		margin: 23px 15px;
+	}
+	.notice{
+	    bottom: 10px;
+	    width: 215px;
+    	height: 160px;
+	}
+	.about .container-content{
+		padding: 47px 128px 124px;
+		box-sizing: border-box;
+	}
+	.about .container-content{
+		background: transparent url(../images/icon_upgrade.png) no-repeat center bottom;
+		background-size: 30%;
+	}
+	.about-content .content-list:first-child{
+		padding: 0 72px;
+		box-sizing: border-box;
+	}
+	.padding-border{
+		height: 119px;
+	}
+	.block-word{
+		width: 68%;
+		padding-top: 50px;
+	}
+	.switch-list + .switch-list{
+		margin-left: 6px;
+	}
+	.back{
+		left: 37px;
+	}
+	.go{
+		right: 55px;
+	}
+	.news .container-content{
+		padding: 47px 44px 47px 67px;
+		box-sizing: border-box;
+	}
+	.culture .container-content{
+		padding: 47px 128px 124px;
+		box-sizing: border-box;
+	}
+	.culture-content .content-list:first-child{
+		padding: 0 48px;
+		box-sizing: border-box;
+	}
+	.culture{
+		background: transparent url(../images/icon_notebook.png) no-repeat 12px -36px;
+    	background-size: 25%;
+	}
+	.culture .container{
+		background: transparent url(../images/icon_macbookpro.png) no-repeat right top;
+		background-size: 24%;
+	}
+	.icon-pen{
+		left: 2%;
+    	bottom: 15%;
+		width: 15%;
+	}
+	.icon-up{
+		right: 23%;
+	    top: 6%;
+	    width: 6%;
+	}
+	.culture-content .content-list:last-child{
+		margin-top: 60px;
+	}
+	.service .container-content{
+		padding: 50px 88px;
+		box-sizing: border-box;
+	}
+}
+@media (max-width: 945px){
+	.bg-right .bg-transparent img{
+		margin-right: 0;
+	}
+}
+@media (min-width: 946px) and (max-width: 995px){
+	.bg-right .bg-transparent img{
+		margin-right: 1px;
+	}
+}
+@media (min-width: 996px) and (max-width: 1080px){
+	.bg-right .bg-transparent img{
+		margin-right: 2px;
+	}
+}
+@media (min-width: 768px) and (max-width: 990px){
+	.news .container-content{
+		padding: 50px 0;
+		box-sizing: border-box;
+	}
+	.back{
+		left: -31px;
+	}
+	.go{
+		right: 8px;
+	}
+	.culture-content .content-list:first-child{
+		padding: 0 11px;
+		box-sizing: border-box;
+	}
+	.culture{
+	    background: transparent url(../images/icon_notebook.png) no-repeat 17px -26px;
+    	background-size: 24%;
+	}
+	.culture .container{
+		background: transparent url(../images/icon_macbookpro.png) no-repeat right top;
+		background-size: 24%;
+	}
+	.icon-pen{
+		left: 2%;
+    	bottom: 27%;
+		width: 15%;
+	}
+	.icon-up{
+		right: 28%;
+	    top: 5%;
+	    width: 5%;
+	}
+}
+@media (min-width: 991px) and (max-width: 1080px){
+	.news .container-content{
+		padding: 50px 20px 50px 75px;
+		box-sizing: border-box;
+	}
+	.back{
+		left: 45px;
+	}
+	.go{
+		right: 41px;
+	}
+	.culture-content .content-list:first-child{
+		padding: 0 87px;
+		box-sizing: border-box;
+	}
+	.culture{
+		background: transparent url(../images/icon_notebook.png) no-repeat 25px -36px;
+    	background-size: 22%;
+	}
+	.culture .container{
+		background: transparent url(../images/icon_macbookpro.png) no-repeat right top;
+		background-size: 20%;
+	}
+	.icon-pen{
+		left: 2%;
+    	bottom: 27%;
+		width: 13%;
+	}
+	.icon-up{
+		right: 22%;
+	    top: 7%;
+	    width: 5%;
+	}
+}
+@media (min-width: 768px) and (max-width: 1080px){
+	.holding-nav .container-fluid{
+		padding-left: 80px;
+		padding-right: 65px;
+		box-sizing: border-box;
+	}
+	.collapse.navbar-collapse .nav.navbar-nav{
+		margin-top: 15px;
+	}
+	.notice{
+	    bottom: 15px;
+	    width: 215px;
+    	height: 160px;
+	}
+	.about .container-content{
+		padding: 50px 90px 168px;
+		box-sizing: border-box;
+	}
+	.about .container-content{
+		background: transparent url(../images/icon_upgrade.png) no-repeat center bottom;
+		background-size: 34%;
+	}
+	.about-content .content-list:first-child{
+		padding: 0 26px;
+		box-sizing: border-box;
+	}
+	.padding-border{
+		height: 72px;
+	}
+	.block-word{
+		width: 68%;
+		padding-top: 12px;
+	}
+	.switch-list + .switch-list{
+		margin-left: 6px;
+	}
+	.culture .container-content{
+		padding: 50px 90px 168px;
+		box-sizing: border-box;
+	}
+	.culture-content .content-list:last-child{
+		margin-top: 10px;
+	}
+	.service .container-content{
+		padding: 50px 15px;
+		box-sizing: border-box;
+	}
+}
+@media (min-width: 1081px) and (max-width: 1200px){
+	.holding-nav .container-fluid{
+		padding-left: 210px;
+		padding-right: 200px;
+		box-sizing: border-box;
+	}
+	.collapse.navbar-collapse .nav.navbar-nav{
+		margin-top: 15px;
+	}
+	.notice{
+		bottom: 22px;
+		width: 180px;
+		height: 190px;
+	}
+	.about .container-content{
+		padding: 100px 168px 168px;
+		box-sizing: border-box;
+	}
+	.about .container-content{
+		background: transparent url(../images/icon_upgrade.png) no-repeat center bottom;
+		background-size: 35%;
+	}
+	.about-content .content-list:first-child{
+		padding: 0 58px;
+		box-sizing: border-box;
+	}
+	.content-list-block + .content-list-block{
+		margin-top: 15px;
+	}
+	.padding-border{
+		height: 56px;
+	}
+	.block-word{
+		width: 84%;
+		padding-top: 6px;
+	}
+	.switch-list + .switch-list{
+		margin-left: 6px;
+	}
+	.back{
+		left: 25px;
+	}
+	.go{
+		right: 38px;
+	}
+	.news .container-content{
+		padding: 100px 15px 100px 55px;
+		box-sizing: border-box;
+	}
+	.culture .container-content{
+		padding: 100px 168px 168px;
+		box-sizing: border-box;
+	}
+	.culture-content .content-list:first-child{
+		padding: 0 20px;
+		box-sizing: border-box;
+	}
+	.culture{
+		background: transparent url(../images/icon_notebook.png) no-repeat 60px -36px;
+    	background-size: 24%;
+	}
+	.culture .container{
+		background: transparent url(../images/icon_macbookpro.png) no-repeat right top;
+		background-size: 25%;
+	}
+	.icon-pen{
+		left: 3%;
+    	bottom: 19%;
+		width: 16%;
+	}
+	.icon-up{
+		right: 28%;
+    	top: 8%;
+		width: 6%;
+	}
+	.culture-content .content-list:last-child{
+		margin-top: 26px;
+	}
+	.bg-right .bg-transparent img{
+		margin-right: 3px;
+	}
+	.service .container-content{
+		padding: 50px 126px;
+		box-sizing: border-box;
+	}
+}
+@media (min-width: 1201px){
+	.holding-nav .container-fluid{
+		padding-left: 210px;
+		padding-right: 200px;
+		box-sizing: border-box;
+	}
+	.collapse.navbar-collapse .nav.navbar-nav{
+		margin-top: 15px;
+	}
+	.notice{
+		bottom: 22px;
+		width: 180px;
+		height: 190px;
+	}
+	.about .container-content{
+		padding: 100px 168px 140px;
+		box-sizing: border-box;
+	}
+	.about .container-content{
+		background: transparent url(../images/icon_upgrade.png) no-repeat center bottom;
+		background-size: 26%;
+	}
+	.about-content .content-list:first-child{
+		padding: 0 160px;
+		box-sizing: border-box;
+	}
+	.content-list-block + .content-list-block{
+		margin-top: 15px;
+	}
+	.padding-border{
+		height: 76px;
+	}
+	.block-word{
+		width: 68%;
+		padding-top: 17px;
+	}
+	.switch-list + .switch-list{
+		margin-left: 12px;
+	}
+	.back{
+		left: 139px;
+	}
+	.go{
+		right: 166px;
+	}
+	.news .container-content{
+		padding: 100px 168px 100px;
+		box-sizing: border-box;
+	}
+	.culture .container-content{
+		padding: 100px 168px 140px;
+		box-sizing: border-box;
+	}
+	.culture-content .content-list:first-child{
+		padding: 0 90px;
+		box-sizing: border-box;
+	}
+	.culture{
+		background: transparent url(../images/icon_notebook.png) no-repeat 80px -36px;
+	    background-size: 24%;
+	}
+	.culture .container{
+		background: transparent url(../images/icon_macbookpro.png) no-repeat right top;
+		background-size: 25%;
+	}
+	.icon-pen{
+		left: 3%;
+    	bottom: 5%;
+		width: 16%;
+	}
+	.icon-up{
+		right: 28%;
+    	top: 8%;
+		width: 7%;
+	}
+	.culture-content .content-list:last-child{
+		margin-top: 69px;
+	}
+	.service .container-content{
+		padding: 50px 225px;
+		box-sizing: border-box;
+	}
+}
+@media (min-width: 1200px) and (max-width: 1266px){
+	.bg-right .bg-transparent img{
+		margin-right: 4px;
+	}
+}
+@media (min-width: 1267px) and (max-width: 1349px){
+	.bg-right .bg-transparent img{
+		margin-right: 5px;
+	}
+}
+@media (min-width: 1350px){
+	.bg-right .bg-transparent img{
+		margin-right: 6px;
+	}
+}
